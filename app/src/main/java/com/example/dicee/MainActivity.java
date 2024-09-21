@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
       rollbutton.setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View v) {
-              Toast.makeText(MainActivity.this,"The dice has been rolled",Toast.LENGTH_LONG).show();
+              Toast.makeText(MainActivity.this,"The dice has been rolled!",Toast.LENGTH_LONG).show();
               Random randomNumbergenerator =new Random();
               int number=randomNumbergenerator.nextInt(6);
               dice1.setImageResource(diceArray[number]);
